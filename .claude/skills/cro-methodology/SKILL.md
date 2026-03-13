@@ -1,3 +1,10 @@
+---
+name: cro-methodology
+description: >
+  Apply the CRE Methodology™ for conversion rate optimization. Use when the user wants to audit a landing page, website, or conversion funnel; analyze why visitors aren't converting; build an O/CO objection table; design A/B tests; or improve copy and persuasion elements. Rejects "best practices" in favor of evidence-based, customer-centric optimization.
+argument-hint: "[URL or description of page/funnel to optimize]"
+---
+
 # CRO Methodology
 
 Scientific, customer-centric approach to conversion rate optimization based on the CRE Methodology(TM). Extraordinary improvements come from understanding WHY visitors don't convert, not from copying competitors or applying generic tips.
