@@ -1,7 +1,7 @@
 ---
 name: cro-methodology
 description: >
-  Apply the CRE Methodology™ for conversion rate optimization. Use when the user wants to audit a landing page, website, or conversion funnel; analyze why visitors aren't converting; build an O/CO objection table; design A/B tests; or improve copy and persuasion elements. Rejects "best practices" in favor of evidence-based, customer-centric optimization.
+  Apply the CRE Methodology™ for conversion rate optimization. Use when the user wants to audit a landing page, website, or conversion funnel; analyze why visitors aren't converting; build an O/CO objection table; design A/B tests; or improve copy and persuasion elements. Also applies to financial and operational dashboards: analyzing P&L structure, discovering structural surprises in cost/margin data, and building evidence-based business strategy. Rejects "best practices" in favor of evidence-based, data-driven optimization.
 argument-hint: "[URL or description of page/funnel to optimize]"
 ---
 
@@ -194,6 +194,41 @@ See: [OBJECTIONS.md](references/OBJECTIONS.md) for the full O/CO framework, rese
 
 See: [testing-methodology.md](references/testing-methodology.md) for ICE scoring tables and detailed prioritization.
 
+### 7. Financial & Operational Dashboard Analysis
+
+**Core concept:** Apply CRO-style analytical rigor to financial and operational dashboards. Instead of asking "why don't visitors convert?", ask "what does the data reveal that contradicts our assumptions?" The same O/CO framework, ICE scoring, and hypothesis format apply to P&L analysis, cost structure review, and business strategy.
+
+**Why it works:** Teams make strategic decisions based on mental models that are often wrong. A dashboard contains the ground truth. Reading it systematically — before forming any conclusion — consistently surfaces structural surprises that invalidate operating assumptions and reframe the entire strategy.
+
+**Key insights:**
+- Read all KPI cards, charts, and tables before concluding anything
+- Separate current-state data from simulated/projected data
+- Break down performance by segment — averages hide loss-making units inside profitable ones
+- Find the structural surprise: the finding that contradicts the team's operating assumption
+- Apply O/CO framework to strategic barriers (resistance to change) rather than visitor objections
+- Apply ICE scoring to business initiatives: Impact (profit/revenue effect), Confidence (data strength), Ease (organizational feasibility)
+- Hypothesis format is identical: "If we [action], then [metric] will improve because [data evidence]"
+
+**Product applications:**
+
+| Context | Analysis Step | Example |
+|---------|--------------|---------|
+| **P&L review** | Step 2: Find structural surprise | Own vehicles at -1.9% margin while partner companies earn 24.2% |
+| **Cost audit** | Step 1: Read cost composition | Labor = 56% of own-vehicle cost — largest fixed cost |
+| **Pricing decision** | Step 4: Write hypothesis | "7% price increase adds ¥49.5M directly to profit per simulation" |
+| **Growth strategy** | Step 3: O/CO table | Barrier "add own fleet" → Counter "own fleet loses money; scale partner network instead" |
+| **Roadmap** | Step 5: Quantified plan | Year-by-year revenue, margin, and structural change targets |
+
+**Copy patterns:**
+- "Structural surprise: [assumption] vs. [data reality]"
+- "If we [action], then [metric] will improve because [evidence from dashboard]"
+- "Original direction: [X]. Data finding: [Y]. Revised direction: [Z]."
+- "All current profit comes from [segment]. Growing [other segment] scales the loss."
+
+**Ethical boundary:** Never cherry-pick segments to support a pre-formed conclusion. Report the structural finding even if it invalidates the team's current strategy. The sooner the reversal, the less compounding damage.
+
+See: [financial-dashboard-analysis.md](references/financial-dashboard-analysis.md) for the full 6-step flow, checklist, and KAM transportation dashboard example.
+
 ### 6. A/B Testing Methodology
 
 **Core concept:** Run controlled experiments comparing page versions to determine which performs better, using proper statistical rigor to ensure results are real, not random noise.
@@ -276,6 +311,7 @@ When optimizing any page:
 - [RESEARCH.md](references/RESEARCH.md): Tools, survey questions, data analysis
 - [testing-methodology.md](references/testing-methodology.md): A/B testing, statistical significance, ICE prioritization, multivariate testing
 - [funnel-analysis.md](references/funnel-analysis.md): Blocked arteries, missing links, industry funnels, cross-sell mapping
+- [financial-dashboard-analysis.md](references/financial-dashboard-analysis.md): P&L dashboard analysis, structural surprise discovery, O/CO for business strategy, KAM transportation example
 
 ## Further Reading
 
